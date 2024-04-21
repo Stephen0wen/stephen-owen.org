@@ -1,0 +1,267 @@
+:root {
+    --header-color: #203a8c;
+    --light-text: white;
+    --header-height: 8rem;
+    scroll-behavior: smooth;
+  }
+  
+  *, ::before, ::after {
+    box-sizing: border-box;
+    padding: 0;
+    border: 0px solid black;
+    margin: 0;
+  }
+  
+  html {
+    font-size: clamp(6px, 0.6vw, 10px);
+    color: var(--light-text);
+    box-sizing: border-box;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: var(--header-height);
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--header-color);
+    
+  }
+  
+  .logo h2{
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 4rem;
+    margin-left: 1.5rem;
+    height: 5rem;
+    width: 40rem;
+    overflow: visible;
+    color: var(--light-text);
+  }
+  
+  .logo .narrow {
+    display: none;
+  }
+  
+  .logo .narrow span {
+    display: block;
+  
+  }
+  
+  .line1 {margin-left: 0}
+  .line2 {margin-left: 12vw}
+  .line3 {margin-left: 21.5vw}
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: "Work Sans", sans-serif; 
+    height: 100%;
+    margin-right: 1.5rem;
+  }
+  
+  nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 17rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3rem;
+    color: var(--light-text);
+  }
+  
+  nav a:hover {
+    background-color: white;
+    color: var(--header-color);
+    transition: 100ms 0ms;
+  }
+  
+  nav a:active {
+    font-size: 2.8rem;
+    transition: 0 !important;
+  }
+  /*
+  body {
+    overflow: hidden;
+  }
+  */
+  .nav-space {
+    height: var(--header-height)
+  }
+  
+  .section-space {
+    min-height: calc(100vh - var(--header-height));
+  }
+  
+  #welcome {
+    background: radial-gradient( #101049, #202039 150%)
+  }
+  
+  .welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Gloria Hallelujah", cursive;
+    line-height: 10rem;
+  }
+  
+  .welcome-message h1 {
+    font-size: 10rem;
+  } 
+  
+  .welcome-message h2 {
+    font-size: 4rem;
+  }
+  
+  #projects {
+    background-color: #55aaff9d;
+  }
+  
+  .projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    width: clamp(100px, 80vw, 1500px);
+    margin: auto;
+    padding: 2rem 0;
+    gap: 2rem;
+  }
+  
+  .project-tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+    height: max(16vw, 270px);
+    width: max(16vw, 270px);
+    padding: 2px;
+    background-color: white;
+    color: black;
+    border: 2px solid #aaa;
+    box-shadow: 0 0 2rem .08rem var(--header-color);
+  }
+  
+  .project-tile:hover {
+    transform: scale(1.1);
+    transition: 200ms;
+  }
+  
+  .project-tile:active {
+    transform: scale(1.08);
+    transition: 100ms;
+    box-shadow: 0 0 2rem .08rem #222;
+  }
+  
+  .project-tile img {
+    width: 100%;
+    height: calc(100% - 9.2rem);
+    object-fit: cover;
+    object-position: 50% 0%;
+  }
+  
+  .project-title { 
+    font-family: "Gloria Hallelujah", cursive;
+    font-size: max(1.3vw, 14px);
+    padding: 5px;
+    margin: 0.5rem;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+  }
+  
+  .coming-soon {
+    justify-content: center;
+  }
+  
+  #connect {
+    background: radial-gradient(#404040,#303030 150%)
+  }
+  
+  .connect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    font-family: "Gloria Hallelujah", cursive;
+    padding: auto;
+  }
+  
+  .connect > h2 {
+    font-size: 5rem;
+    line-height: 5.5rem;
+  }
+  
+  .connect > h3 {
+    font-size: 4rem;
+  }
+  
+  .link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: min(40vh, 30rem);
+  }
+  
+  .profile-link {
+    width: 20rem;
+    font-size: 10rem;
+    color: #f0f049;
+  }
+  
+  .profile-link:hover {
+    font-size: 12rem;
+  }
+  
+  .profile-link:active {
+    font-size: 11.5rem;
+  }
+  
+@media (max-width: 600px) {
+  :root {--header-height: 18rem}
+  nav {width: 30%}
+  nav a {height: calc(var(--header-height) / 3)}
+  
+  .project-container {
+    width: 80%;
+  }
+
+  .logo h2 {
+    height: 100%;
+    width: 50vw;
+    font-size: 4.2rem;
+  }
+  
+  .logo .wide {display: none}
+  .logo .narrow {display: block}
+}
+
+@media (max-height: 480px) {
+  .project-container {
+    padding: 10px 0;
+  }
+  .profile-link {
+    font-size: 8rem;
+  }
+  .profile-link:active {
+    font-size: 9rem;
+  }
+  .profile-link:active {
+    font-size: 8.75rem;
+  }
+  .link-container {
+    height: 15rem;
+  }
+}
