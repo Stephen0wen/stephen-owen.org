@@ -3,22 +3,24 @@
     --light-text: white;
     --header-height: 8rem;
     scroll-behavior: smooth;
-  }
-  
-  *, ::before, ::after {
+}
+
+*,
+::before,
+::after {
     box-sizing: border-box;
     padding: 0;
     border: 0px solid black;
     margin: 0;
-  }
-  
-  html {
+}
+
+html {
     font-size: clamp(6px, 0.6vw, 10px);
     color: var(--light-text);
     box-sizing: border-box;
-  }
-  
-  header {
+}
+
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,10 +30,9 @@
     top: 0;
     left: 0;
     background-color: var(--header-color);
-    
-  }
-  
-  .logo h2{
+}
+
+.logo h2 {
     font-family: "Pixelify Sans", sans-serif;
     font-size: 4rem;
     margin-left: 1.5rem;
@@ -39,31 +40,36 @@
     width: 40rem;
     overflow: visible;
     color: var(--light-text);
-  }
-  
-  .logo .narrow {
+}
+
+.logo .narrow {
     display: none;
-  }
-  
-  .logo .narrow span {
+}
+
+.logo .narrow span {
     display: block;
-  
-  }
-  
-  .line1 {margin-left: 0}
-  .line2 {margin-left: 12vw}
-  .line3 {margin-left: 21.5vw}
-  
-  nav {
+}
+
+.line1 {
+    margin-left: 0;
+}
+.line2 {
+    margin-left: 12vw;
+}
+.line3 {
+    margin-left: 21.5vw;
+}
+
+nav {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    font-family: "Work Sans", sans-serif; 
+    font-family: "Work Sans", sans-serif;
     height: 100%;
     margin-right: 1.5rem;
-  }
-  
-  nav a {
+}
+
+nav a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,63 +78,63 @@
     text-decoration: none;
     font-size: 3rem;
     color: var(--light-text);
-  }
-  
-  nav a:hover {
+}
+
+nav a:hover {
     background-color: white;
     color: var(--header-color);
     transition: 100ms 0ms;
-  }
-  
-  nav a:active {
+}
+
+nav a:active {
     font-size: 2.8rem;
     transition: 0 !important;
-  }
-  /*
+}
+/*
   body {
     overflow: hidden;
   }
   */
-  .nav-space {
-    height: var(--header-height)
-  }
-  
-  .section-space {
+.nav-space {
+    height: var(--header-height);
+}
+
+.section-space {
     min-height: calc(100vh - var(--header-height));
-  }
-  
-  #welcome {
-    background: radial-gradient( #101049, #202039 150%)
-  }
-  
-  .welcome {
+}
+
+#welcome {
+    background: radial-gradient(#101049, #202039 150%);
+}
+
+.welcome {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-family: "Gloria Hallelujah", cursive;
     line-height: 10rem;
-  }
-  
-  .welcome-message h1 {
+}
+
+.welcome-message h1 {
     font-size: 10rem;
-  } 
-  
-  .welcome-message h2 {
+}
+
+.welcome-message h2 {
     font-size: 4rem;
-  }
-  
-  #projects {
+}
+
+#projects {
     background-color: #55aaff9d;
-  }
-  
-  .projects {
+}
+
+.projects {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .project-container {
+}
+
+.project-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,9 +144,9 @@
     margin: auto;
     padding: 2rem 0;
     gap: 2rem;
-  }
-  
-  .project-tile {
+}
+
+.project-tile {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -151,45 +157,45 @@
     background-color: white;
     color: black;
     border: 2px solid #aaa;
-    box-shadow: 0 0 2rem .08rem var(--header-color);
-  }
-  
-  .project-tile:hover {
+    box-shadow: 0 0 2rem 0.08rem var(--header-color);
+}
+
+.project-tile:hover {
     transform: scale(1.1);
     transition: 200ms;
-  }
-  
-  .project-tile:active {
+}
+
+.project-tile:active {
     transform: scale(1.08);
     transition: 100ms;
-    box-shadow: 0 0 2rem .08rem #222;
-  }
-  
-  .project-tile img {
+    box-shadow: 0 0 2rem 0.08rem #222;
+}
+
+.project-tile img {
     width: 100%;
-    height: calc(100% - 9.2rem);
+    height: calc(100% - (1.9 * max(1.3vw, 14px) + 16px));
     object-fit: cover;
     object-position: 50% 0%;
-  }
-  
-  .project-title { 
+}
+
+.project-title {
     font-family: "Gloria Hallelujah", cursive;
     font-size: max(1.3vw, 14px);
-    padding: 5px;
-    margin: 0.5rem;
+    padding: 0px;
+    margin: 5px;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
-  }
-  
-  .coming-soon {
+}
+
+.coming-soon {
     justify-content: center;
-  }
-  
-  #connect {
-    background: radial-gradient(#404040,#303030 150%)
-  }
-  
-  .connect {
+}
+
+#connect {
+    background: radial-gradient(#404040, #303030 150%);
+}
+
+.connect {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -197,71 +203,94 @@
     text-align: center;
     font-family: "Gloria Hallelujah", cursive;
     padding: auto;
-  }
-  
-  .connect > h2 {
+}
+
+.connect > h2 {
     font-size: 5rem;
     line-height: 5.5rem;
-  }
-  
-  .connect > h3 {
+}
+
+.connect > h3 {
     font-size: 4rem;
-  }
-  
-  .link-container {
+}
+
+.link-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: min(40vh, 30rem);
-  }
-  
-  .profile-link {
+}
+
+.profile-link {
     width: 20rem;
     font-size: 10rem;
     color: #f0f049;
-  }
-  
-  .profile-link:hover {
-    font-size: 12rem;
-  }
-  
-  .profile-link:active {
-    font-size: 11.5rem;
-  }
-  
-@media (max-width: 600px) {
-  :root {--header-height: 18rem}
-  nav {width: 30%}
-  nav a {height: calc(var(--header-height) / 3)}
-  
-  .project-container {
-    width: 80%;
-  }
+}
 
-  .logo h2 {
-    height: 100%;
-    width: 50vw;
-    font-size: 4.2rem;
-  }
-  
-  .logo .wide {display: none}
-  .logo .narrow {display: block}
+.profile-link:hover {
+    font-size: 12rem;
+}
+
+.profile-link:active {
+    font-size: 11.5rem;
+}
+
+@media (max-width: 600px) {
+    :root {
+        --header-height: 18rem;
+    }
+    nav {
+        width: 30%;
+    }
+    nav a {
+        height: calc(var(--header-height) / 3);
+    }
+
+    .project-container {
+        width: 95%;
+    }
+
+    .project-tile {
+        height: 40vw;
+        width: 40vw;
+    }
+
+    .project-title {
+        font-size: 3vw;
+    }
+
+    .project-tile img {
+        height: calc(100% - (1.9 * max(3vw) + 16px));
+    }
+
+    .logo h2 {
+        height: 100%;
+        width: 50vw;
+        font-size: 4.2rem;
+    }
+
+    .logo .wide {
+        display: none;
+    }
+    .logo .narrow {
+        display: block;
+    }
 }
 
 @media (max-height: 480px) {
-  .project-container {
-    padding: 10px 0;
-  }
-  .profile-link {
-    font-size: 8rem;
-  }
-  .profile-link:active {
-    font-size: 9rem;
-  }
-  .profile-link:active {
-    font-size: 8.75rem;
-  }
-  .link-container {
-    height: 15rem;
-  }
+    .project-container {
+        padding: 10px 0;
+    }
+    .profile-link {
+        font-size: 8rem;
+    }
+    .profile-link:active {
+        font-size: 9rem;
+    }
+    .profile-link:active {
+        font-size: 8.75rem;
+    }
+    .link-container {
+        height: 15rem;
+    }
 }
