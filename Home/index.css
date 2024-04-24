@@ -90,11 +90,7 @@ nav a:active {
     font-size: 2.8rem;
     transition: 0 !important;
 }
-/*
-  body {
-    overflow: hidden;
-  }
-  */
+
 .nav-space {
     height: var(--header-height);
 }
@@ -140,10 +136,10 @@ nav a:active {
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
-    width: clamp(100px, 80vw, 1500px);
+    width: 95%;
     margin: auto;
     padding: 2rem 0;
-    gap: 2rem;
+    gap: 2.5rem;
 }
 
 .project-tile {
@@ -158,11 +154,6 @@ nav a:active {
     color: black;
     border: 2px solid #aaa;
     box-shadow: 0 0 2rem 0.08rem var(--header-color);
-}
-
-.project-tile:hover {
-    transform: scale(1.1);
-    transition: 200ms;
 }
 
 .project-tile:active {
@@ -227,12 +218,8 @@ nav a:active {
     color: #f0f049;
 }
 
-.profile-link:hover {
-    font-size: 12rem;
-}
-
-.profile-link:active {
-    font-size: 11.5rem;
+.hidden {
+    display: none;
 }
 
 @media (max-width: 600px) {

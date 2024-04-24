@@ -1,0 +1,88 @@
+:root {
+    --header-color: #203a8c;
+    --light-text: white;
+    --header-height: 8rem;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Neue", cursive;
+}
+
+h1 {
+    font-size: min(10vw, 75px, 10vh);
+    font-family: "Comic Neue", cursive;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+}
+
+body {
+    background: radial-gradient(#200 10%, #100 110%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.Container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: gray;
+    padding: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.cells {
+    height: min(18vw, 18vh);
+    width: min(18vw, 18vh);
+    background-color: #555;
+    border: 1px solid black;
+    text-align: center;
+    font-size: min(16vw, 16vh);
+    color: #fff;
+}
+
+.cells:hover {
+    cursor: pointer;
+}
+
+#under-grid {
+    margin-top: 2vh;
+    width: min(55vw, 55vh);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#score-section {
+    width: 60%;
+    font-size: min(4vw, 25px, 4vh);
+}
+
+button {
+    display: inline-block;
+    height: min(6vw, 40px, 6vh);
+    width: min(18vw, 18vh);
+    font-size: min(3vw, 3vh);
+    border: 1px solid black;
+    border-radius: min(3vw, 3vh);
+    box-shadow: 2px 2px 2px black;
+}
+
+button:hover {
+    transform: scale(1.05);
+    border: 1px solid #00c;
+    box-shadow: 2px 2px 2px #00c;
+}
+
+button:active {
+    transform: scale(1.02);
+}
+
+.hidden {
+    display: none;
+}
+
+/* Copied from home */
