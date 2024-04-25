@@ -3,6 +3,7 @@
     --light-text: white;
     --header-height: 8rem;
     scroll-behavior: smooth;
+    font-size: clamp(6px, 0.6vw, 10px);
 }
 
 *,
@@ -15,7 +16,6 @@
 }
 
 html {
-    font-size: clamp(6px, 0.6vw, 10px);
     color: var(--light-text);
     box-sizing: border-box;
 }
@@ -101,47 +101,4 @@ nav a:active {
 
 .hidden {
     display: none;
-}
-
-@media (max-width: 600px) {
-    :root {
-        --header-height: 18rem;
-    }
-    nav {
-        width: 30%;
-    }
-    nav a {
-        height: calc(var(--header-height) / 3);
-    }
-
-    .logo h2 {
-        height: 100%;
-        width: 50vw;
-        font-size: 4.2rem;
-    }
-
-    .logo .wide {
-        display: none;
-    }
-    .logo .narrow {
-        display: block;
-    }
-}
-
-@media (max-height: 480px) {
-    .project-container {
-        padding: 10px 0;
-    }
-    .profile-link {
-        font-size: 8rem;
-    }
-    .profile-link:active {
-        font-size: 9rem;
-    }
-    .profile-link:active {
-        font-size: 8.75rem;
-    }
-    .link-container {
-        height: 15rem;
-    }
 }

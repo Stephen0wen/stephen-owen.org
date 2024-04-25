@@ -3,6 +3,7 @@
     --light-text: white;
     --header-height: 8rem;
     scroll-behavior: smooth;
+    font-size: clamp(6px, 0.6vw, 10px);
 }
 
 *,
@@ -15,7 +16,6 @@
 }
 
 html {
-    font-size: clamp(6px, 0.6vw, 10px);
     color: var(--light-text);
     box-sizing: border-box;
 }
