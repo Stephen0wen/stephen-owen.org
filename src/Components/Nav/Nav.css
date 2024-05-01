@@ -1,0 +1,39 @@
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: "Work Sans", sans-serif;
+    height: 100%;
+    margin-right: 1.5rem;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 17rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3rem;
+    color: var(--text);
+}
+
+nav a:hover {
+    background-color: var(--text);
+    color: #203a8c;
+    transition: 100ms 0ms;
+}
+
+nav a:active {
+    font-size: 2.8rem;
+    transition: 0 !important;
+}
+
+@media (max-width: 600px) {
+    nav {
+        width: 30%;
+    }
+    nav a {
+        height: 6rem;
+    }
+}

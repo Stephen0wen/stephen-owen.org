@@ -1,1 +1,19 @@
+:root {
+    --text: white;
+    scroll-behavior: smooth;
+    font-size: clamp(6px, 0.6vw, 10px);
+}
 
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    padding: 0;
+    border: 0px solid black;
+    margin: 0;
+    color: var(--light-text);
+}
+
+.hidden {
+    display: none;
+}

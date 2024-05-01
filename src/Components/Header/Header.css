@@ -1,0 +1,57 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 8rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #203a8c;
+}
+
+.logo h2 {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 4rem;
+    margin-left: 1.5rem;
+    height: 5rem;
+    width: 40rem;
+    overflow: visible;
+    color: var(--text);
+}
+
+.logo .narrow {
+    display: none;
+}
+
+.logo .narrow span {
+    display: block;
+}
+
+.line1 {
+    margin-left: 0;
+}
+.line2 {
+    margin-left: 12vw;
+}
+.line3 {
+    margin-left: 21.5vw;
+}
+
+@media (max-width: 600px) {
+    header {
+        height: 18rem;
+    }
+    .logo h2 {
+        height: 100%;
+        width: 50vw;
+        font-size: 4.2rem;
+    }
+
+    .logo .wide {
+        display: none;
+    }
+    .logo .narrow {
+        display: block;
+    }
+}
