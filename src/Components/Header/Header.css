@@ -44,7 +44,8 @@ header {
         /* height: 100%; */
         width: 100vw;
         font-size: 4.2rem;
-        margin-bottom: 2rem;
+        height: 7rem;
+        padding-top: 0.6rem;
     }
 
     /* .logo .wide {

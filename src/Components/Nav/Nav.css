@@ -30,7 +30,13 @@ nav a:active {
 }
 
 @media (max-width: 600px) {
+    nav {
+        border-top: 1px solid #0005;
+        margin-right: 0;
+        width: 100%;
+    }
     nav a {
         padding: 1rem;
+        width: calc(100% / 3);
     }
 }
