@@ -30,10 +30,7 @@ nav a:active {
 }
 
 @media (max-width: 600px) {
-    nav {
-        width: 30%;
-    }
     nav a {
-        height: 6rem;
+        padding: 1rem;
     }
 }

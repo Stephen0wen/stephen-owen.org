@@ -37,18 +37,20 @@ header {
 
 @media (max-width: 600px) {
     header {
-        height: 18rem;
+        height: 13rem;
+        flex-direction: column;
     }
     .logo h2 {
-        height: 100%;
-        width: 50vw;
+        /* height: 100%; */
+        width: 100vw;
         font-size: 4.2rem;
+        margin-bottom: 2rem;
     }
 
-    .logo .wide {
+    /* .logo .wide {
         display: none;
     }
     .logo .narrow {
         display: block;
-    }
+    } */
 }
