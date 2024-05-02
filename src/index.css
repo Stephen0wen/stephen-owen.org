@@ -4,8 +4,6 @@
     font-size: clamp(6px, 0.6vw, 10px);
     overflow: hidden;
     position: fixed;
-    height: 100vh;
-    width: 100vw;
 }
 
 *,
@@ -13,21 +11,17 @@
 ::after {
     box-sizing: border-box;
     padding: 0;
-    border: 0px solid black;
+    border: 0px solid red;
     margin: 0;
     color: var(--text);
 }
 
-html {
-    height: 100%;
-}
-
-body {
-    height: 100%;
-}
-
 #root {
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 100vh;
 }
 
 section {
