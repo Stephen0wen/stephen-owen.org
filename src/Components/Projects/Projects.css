@@ -1,0 +1,15 @@
+#projects {
+    background-color: #55aaff9d;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
+    padding: 2rem 0;
+    gap: 2.5rem;
+}

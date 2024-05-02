@@ -1,0 +1,41 @@
+.project-tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+    height: max(16vw, 150px);
+    width: max(16vw, 150px);
+    padding: 2px;
+    background-color: white;
+    color: black !important;
+    border: 2px solid #aaa;
+    box-shadow: 0 0 2rem 0.08rem var(--header-color);
+}
+
+.project-tile:active {
+    transform: scale(1.08);
+    transition: 100ms;
+    box-shadow: 0 0 2rem 0.08rem #222;
+}
+
+.project-tile img {
+    width: 100%;
+    height: calc(100% - (1.9 * max(1.3vw, 14px) + 16px));
+    object-fit: cover;
+    object-position: 50% 0%;
+}
+
+.project-title {
+    font-family: "Gloria Hallelujah", cursive;
+    font-size: clamp(12px, 1.3vw, 16px);
+    color: black !important;
+    padding: 0px;
+    margin: 5px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    text-wrap: nowrap;
+}
+
+.coming-soon {
+    justify-content: center;
+}

@@ -1,0 +1,34 @@
+[
+    {
+        "id": 0,
+        "title": "Noughts and Crosses",
+        "isExternal": false,
+        "link": "/noughts-and-crosses",
+        "img_link": "./src/assets/Noughts-and-Crosses.png",
+        "img_alt": "A partially completed game of noughts and crosses"
+    },
+    {
+        "id": 1,
+        "title": "Node Pokemon Battler",
+        "isExternal": true,
+        "link": "https://replit.com/@stevejowen/pokemon-battler",
+        "img_link": "./src/assets/pikachu.png",
+        "img_alt": "Pikachu looking cute"
+    },
+    {
+        "id": 2,
+        "title": "Product Landing Page",
+        "isExternal": true,
+        "link": "https://codepen.io/Stephen0wen/full/GRLRMmM",
+        "img_link": "./src/assets/Duck_Page_Preview.JPG",
+        "img_alt": "A duck themed webpage"
+    },
+    {
+        "id": 3,
+        "title": "Python Poker",
+        "isExternal": true,
+        "link": "https://replit.com/@stevejowen/Text-Based-Poker",
+        "img_link": "./src/assets/Text_Based_Poker_Preview.JPG",
+        "img_alt": "A written invitation to play texted based poker"
+    }
+]
