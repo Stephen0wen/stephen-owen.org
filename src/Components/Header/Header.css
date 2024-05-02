@@ -4,9 +4,6 @@ header {
     align-items: center;
     width: 100vw;
     height: 8rem;
-    position: fixed;
-    top: 0;
-    left: 0;
     background-color: #203a8c;
 }
 
@@ -17,7 +14,7 @@ header {
     height: 5rem;
     width: 40rem;
     overflow: visible;
-    color: var(--text);
+    color: white;
 }
 
 .logo .narrow {

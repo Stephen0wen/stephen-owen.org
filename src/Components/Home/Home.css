@@ -1,0 +1,17 @@
+#welcome {
+    background: radial-gradient(#101049, #202039 150%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Gloria Hallelujah", cursive;
+    line-height: 10rem;
+}
+
+.welcome-message h1 {
+    font-size: 10rem;
+}
+
+.welcome-message h2 {
+    font-size: 4rem;
+}

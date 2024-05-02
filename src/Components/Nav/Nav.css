@@ -15,12 +15,12 @@ nav a {
     text-align: center;
     text-decoration: none;
     font-size: 3rem;
-    color: var(--text);
 }
 
+nav a:hover > div,
 nav a:hover {
-    background-color: var(--text);
     color: #203a8c;
+    background-color: white;
     transition: 100ms 0ms;
 }
 

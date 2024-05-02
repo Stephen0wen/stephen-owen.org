@@ -1,17 +1,18 @@
 import "./Nav.css";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
     return (
         <nav id="navbar">
-            <a href="#welcome">
-                <div class="text-align">Welcome</div>
-            </a>
-            <a href="#projects">
+            <Link to="/">
+                <div class="text-align">Home</div>
+            </Link>
+            <Link to="/projects">
                 <div class="text-align">Projects</div>
-            </a>
-            <a href="#connect">
+            </Link>
+            <Link to="/connect">
                 <div class="text-align">Connect</div>
-            </a>
+            </Link>
         </nav>
     );
 };
