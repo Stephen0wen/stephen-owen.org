@@ -1,6 +1,7 @@
 import "./Projects.css";
 import Project from "../Project/Project";
 import projects from "../../assets/projects.json";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
     return (
@@ -22,6 +23,19 @@ const Projects = () => {
                                     img_alt={project.img_alt}
                                 />
                             </a>
+                        );
+                    }
+                    if (!project.isExternal) {
+                        return (
+                            <Link to={project.link} className="project-tile">
+                                <Project
+                                    key={project.id}
+                                    id={project.id}
+                                    title={project.title}
+                                    img_link={project.img_link}
+                                    img_alt={project.img_alt}
+                                />
+                            </Link>
                         );
                     }
                 })}

@@ -13,6 +13,10 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/connect" element={<Home />} />
+                <Route
+                    path="/noughts-and-crosses"
+                    element="NoughtsAndCrosses"
+                />
             </Routes>
         </>
     );
