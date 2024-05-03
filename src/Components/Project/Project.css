@@ -3,8 +3,8 @@
     flex-direction: column;
     justify-content: space-between;
     text-decoration: none;
-    height: max(16vw, 150px);
-    width: max(16vw, 150px);
+    height: max(25vw, 150px);
+    width: max(25vw, 150px);
     padding: 2px;
     background-color: white;
     color: black !important;
