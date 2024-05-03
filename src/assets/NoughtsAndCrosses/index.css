@@ -2,22 +2,21 @@
     margin: 0;
     padding: 0;
     font-family: "Comic Neue", cursive;
-    color: white;
 }
 
 h1 {
     font-size: min(10vw, 75px, 10vh);
     font-family: "Comic Neue", cursive;
-    color: white;
     margin-top: 2vh;
     margin-bottom: 4vh;
+    color: white;
 }
 
 body {
-    background: radial-gradient(#200 10%, #100 110%);
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: radial-gradient(#200 10%, #100 110%);
     height: 100vh;
 }
 
@@ -54,6 +53,7 @@ body {
 #score-section {
     width: 60%;
     font-size: min(4vw, 25px, 4vh);
+    color: white;
 }
 
 button {
@@ -79,5 +79,3 @@ button:active {
 .hidden {
     display: none;
 }
-
-/* Copied from home */

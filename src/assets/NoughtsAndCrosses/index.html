@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="./index.css" rel="stylesheet" />
+        <script src="./index.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap"
+            rel="stylesheet"
+        />
+        <title>Noughts and Crosses</title>
+    </head>
+    <body>
+        <h1>Noughts and Crosses</h1>
+        <section id="grid-section">
+            <div id="Grid" class="Container">
+                <div id="cell-1" class="cells"></div>
+                <div id="cell-2" class="cells"></div>
+                <div id="cell-3" class="cells"></div>
+                <div id="cell-4" class="cells"></div>
+                <div id="cell-5" class="cells"></div>
+                <div id="cell-6" class="cells"></div>
+                <div id="cell-7" class="cells"></div>
+                <div id="cell-8" class="cells"></div>
+                <div id="cell-9" class="cells"></div>
+            </div>
+        </section>
+        <section id="under-grid">
+            <div id="score-section">
+                <h2 id="x-label" class="name-label">
+                    Player X: <span id="x-score">0</span>
+                </h2>
+                <h2 id="o-label" class="name-label">
+                    Player O: <span id="o-score">0</span>
+                </h2>
+            </div>
+            <button class="hidden" id="new-game">New Game</button>
+        </section>
+    </body>
+</html>

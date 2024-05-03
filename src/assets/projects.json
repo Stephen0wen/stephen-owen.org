@@ -2,8 +2,8 @@
     {
         "id": 0,
         "title": "Noughts and Crosses",
-        "isExternal": false,
-        "link": "/noughts-and-crosses",
+        "isExternal": true,
+        "link": "./src/assets/NoughtsAndCrosses/index.html",
         "img_link": "./src/assets/Noughts-and-Crosses.png",
         "img_alt": "A partially completed game of noughts and crosses"
     },

@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./index.css";
 import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
@@ -13,10 +12,6 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/connect" element={<Home />} />
-                <Route
-                    path="/noughts-and-crosses"
-                    element="NoughtsAndCrosses"
-                />
             </Routes>
         </>
     );
