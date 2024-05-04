@@ -1,0 +1,14 @@
+#hangman {
+    background: radial-gradient(#220 10%, #110 110%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hangman > h1 {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 6rem;
+    color: white;
+}

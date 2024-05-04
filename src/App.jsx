@@ -3,6 +3,7 @@ import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
 import { Routes, Route } from "react-router-dom";
 import Projects from "./Components/Projects/Projects";
+import Hangman from "./assets/Hangman/Hangman";
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/connect" element={<Home />} />
+                <Route path="/projects/hangman" element={<Hangman />} />
             </Routes>
         </>
     );

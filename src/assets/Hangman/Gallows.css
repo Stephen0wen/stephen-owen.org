@@ -1,0 +1,12 @@
+.gallows {
+    margin: 3rem;
+}
+
+.gallows img {
+    box-sizing: border-box;
+    border-radius: 0.8rem;
+    width: 25rem;
+    height: 25rem;
+    opacity: 0.9;
+    filter: invert(100%);
+}

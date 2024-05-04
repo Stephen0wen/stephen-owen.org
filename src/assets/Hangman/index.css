@@ -1,0 +1,21 @@
+* {
+    font-size: min(2vw, 1.4vh);
+    margin: 0;
+    padding: 0;
+    border: 0px solid blue;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: radial-gradient(#220 10%, #110 110%);
+}
+
+h1 {
+    text-align: center;
+    font-size: 6rem;
+    color: white;
+}

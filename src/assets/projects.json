@@ -1,6 +1,14 @@
 [
     {
-        "id": 0,
+        "id": 4,
+        "title": "Hangman",
+        "isExternal": false,
+        "link": "/projects/hangman",
+        "img_link": "./src/assets/Hangman_Preview.png",
+        "img_alt": "A partially completegame of hangman"
+    },
+    {
+        "id": 3,
         "title": "Noughts and Crosses",
         "isExternal": true,
         "link": "./src/assets/NoughtsAndCrosses/index.html",
@@ -8,7 +16,7 @@
         "img_alt": "A partially completed game of noughts and crosses"
     },
     {
-        "id": 1,
+        "id": 2,
         "title": "Node Pokemon Battler",
         "isExternal": true,
         "link": "https://replit.com/@stevejowen/pokemon-battler",
@@ -16,7 +24,7 @@
         "img_alt": "Pikachu looking cute"
     },
     {
-        "id": 2,
+        "id": 1,
         "title": "Product Landing Page",
         "isExternal": true,
         "link": "https://codepen.io/Stephen0wen/full/GRLRMmM",
@@ -24,7 +32,7 @@
         "img_alt": "A duck themed webpage"
     },
     {
-        "id": 3,
+        "id": 0,
         "title": "Python Poker",
         "isExternal": true,
         "link": "https://replit.com/@stevejowen/Text-Based-Poker",

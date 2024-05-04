@@ -1,0 +1,28 @@
+.difficulty-slider {
+    position: absolute;
+    left: 1rem;
+    top: 30vh;
+    border: 0rem solid #550;
+    border-radius: 1rem;
+    background-color: #5555;
+}
+
+.difficulty-button {
+    display: block;
+    height: 7rem;
+    width: 7rem;
+    background-color: #0000;
+    color: white;
+    font-weight: 900;
+    font-size: 1.5rem;
+    opacity: 0.5;
+    border-radius: 1rem;
+}
+
+.active-difficulty {
+    background-color: #898900;
+    opacity: 1;
+    height: 7rem;
+    width: 7rem;
+    border: 0.5rem solid black;
+}

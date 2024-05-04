@@ -1,0 +1,25 @@
+.word {
+    display: flex;
+    color: white;
+    height: 10rem;
+    margin-top: 1rem;
+}
+
+.word-char {
+    width: 4rem;
+    height: 6rem;
+    text-align: center;
+    font-size: 5rem;
+    border-bottom: 0.5rem solid white;
+    margin: 0.25rem;
+}
+
+.word-char-won {
+    color: greenyellow;
+    border-bottom: 0.5rem solid greenyellow;
+}
+
+.word-char-lost {
+    color: orangered;
+    border-bottom: 0.5rem solid orangered;
+}
