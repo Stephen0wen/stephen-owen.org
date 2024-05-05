@@ -3,8 +3,9 @@
     flex-direction: column;
     justify-content: space-between;
     text-decoration: none;
-    height: max(25vw, 150px);
-    width: max(25vw, 150px);
+    --container-width: min(95vw, 1500px);
+    height: max(calc(var(--container-width) / 4), 150px);
+    width: max(calc(var(--container-width) / 4), 150px);
     padding: 2px;
     background-color: white;
     color: black !important;
@@ -20,7 +21,7 @@
 
 .project-tile img {
     width: 100%;
-    height: calc(100% - (1.9 * max(1.3vw, 14px) + 16px));
+    max-height: calc(100% - clamp(12px, 1.3vw, 16px) * 3);
     object-fit: cover;
     object-position: 50% 0%;
 }

@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 17rem;
-    width: 48rem;
+    height: calc(min(90vw, 600px) / 3);
+    width: min(90vw, 600px);
     background-color: #5555;
     border-radius: 1rem;
     margin: 1rem;
@@ -15,14 +15,14 @@
 }
 
 .key {
-    height: 4rem;
-    width: 4rem;
+    height: calc(min(90vw, 600px) / 12);
+    width: calc(min(90vw, 600px) / 12);
     background-color: #898900;
     color: white;
     font-weight: 800;
-    font-size: 2rem;
+    font-size: calc(min(90vw, 600px) / 20);
     border-radius: 0.5rem;
-    margin: 0.25rem;
+    margin: calc(min(90vw, 600px) / 200);
 }
 
 .spacer {

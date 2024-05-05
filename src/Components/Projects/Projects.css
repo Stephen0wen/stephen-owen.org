@@ -8,7 +8,7 @@
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
-    width: 95%;
+    width: min(95%, 1500px);
     margin: auto;
     padding: 2rem 0;
     gap: 2.5rem;

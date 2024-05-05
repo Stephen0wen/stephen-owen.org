@@ -39,9 +39,6 @@ const Projects = () => {
                         );
                     }
                 })}
-                <div class="project-tile coming-soon">
-                    <h2 class="project-title">Coming Soon</h2>
-                </div>
             </div>
         </section>
     );
