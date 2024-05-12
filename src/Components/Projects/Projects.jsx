@@ -14,6 +14,7 @@ const Projects = () => {
                                 className="project-tile"
                                 href={project.link}
                                 target="_blank"
+                                key={project.id}
                             >
                                 <Project
                                     key={project.id}
@@ -27,7 +28,11 @@ const Projects = () => {
                     }
                     if (!project.isExternal) {
                         return (
-                            <Link to={project.link} className="project-tile">
+                            <Link
+                                to={project.link}
+                                className="project-tile"
+                                key={project.id}
+                            >
                                 <Project
                                     key={project.id}
                                     id={project.id}

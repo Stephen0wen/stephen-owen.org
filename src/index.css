@@ -6,9 +6,7 @@
     position: fixed;
 }
 
-*,
-::before,
-::after {
+* {
     box-sizing: border-box;
     padding: 0;
     border: 0px solid red;
@@ -19,7 +17,6 @@
 #root {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: stretch;
     height: 100vh;
 }

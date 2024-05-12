@@ -7,7 +7,8 @@ nav {
     margin-right: 1.5rem;
 }
 
-nav a {
+nav a,
+nav div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,7 +18,7 @@ nav a {
     font-size: 3.5rem;
 }
 
-nav a:hover > div,
+/* nav a:hover > div,
 nav a:hover {
     color: #203a8c;
     background-color: white;
@@ -27,7 +28,7 @@ nav a:hover {
 nav a:active {
     font-size: 2.8rem;
     transition: 0 !important;
-}
+} */
 
 @media (max-width: 600px) {
     nav {
@@ -37,6 +38,10 @@ nav a:active {
     }
     nav a {
         padding: 1rem;
+        width: calc(100% / 3);
+    }
+
+    nav div {
         width: calc(100% / 3);
     }
 }
