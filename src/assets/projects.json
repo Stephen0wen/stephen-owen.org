@@ -1,27 +1,35 @@
 [
     {
         "id": 4,
+        "title": "SO-NEWS",
+        "isExternal": true,
+        "link": "https://so-news.netlify.app/",
+        "img_link": "/images/SO-NEWS-Preview.png",
+        "img_alt": "A news web app, showing an article about"
+    },
+    {
+        "id": 3,
         "title": "Hangman",
         "isExternal": false,
         "link": "/projects/hangman",
         "img_link": "/images/Hangman_Preview.png",
-        "img_alt": "A partially completegame of hangman"
+        "img_alt": "A partially complete game of hangman"
     },
     {
         "id": 2,
+        "title": "Noughts and Crosses",
+        "isExternal": true,
+        "link": " https://codepen.io/Stephen0wen/full/QWRwajm",
+        "img_link": "/images/Noughts-and-Crosses.png",
+        "img_alt": "A partially complete game of noughts and crosses"
+    },
+    {
+        "id": 1,
         "title": "Node Pokemon Battler",
         "isExternal": true,
         "link": "https://replit.com/@stevejowen/pokemon-battler",
         "img_link": "/images/pikachu.png",
         "img_alt": "Pikachu looking cute"
-    },
-    {
-        "id": 1,
-        "title": "Product Landing Page",
-        "isExternal": true,
-        "link": "https://codepen.io/Stephen0wen/full/GRLRMmM",
-        "img_link": "/images/Duck_Page_Preview.JPG",
-        "img_alt": "A duck themed webpage"
     },
     {
         "id": 0,
