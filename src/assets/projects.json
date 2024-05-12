@@ -4,23 +4,15 @@
         "title": "Hangman",
         "isExternal": false,
         "link": "/projects/hangman",
-        "img_link": "./src/assets/Hangman_Preview.png",
+        "img_link": "/images/Hangman_Preview.png",
         "img_alt": "A partially completegame of hangman"
-    },
-    {
-        "id": 3,
-        "title": "Noughts and Crosses",
-        "isExternal": true,
-        "link": "./src/assets/NoughtsAndCrosses/index.html",
-        "img_link": "./src/assets/Noughts-and-Crosses.png",
-        "img_alt": "A partially completed game of noughts and crosses"
     },
     {
         "id": 2,
         "title": "Node Pokemon Battler",
         "isExternal": true,
         "link": "https://replit.com/@stevejowen/pokemon-battler",
-        "img_link": "./src/assets/pikachu.png",
+        "img_link": "/images/pikachu.png",
         "img_alt": "Pikachu looking cute"
     },
     {
@@ -28,7 +20,7 @@
         "title": "Product Landing Page",
         "isExternal": true,
         "link": "https://codepen.io/Stephen0wen/full/GRLRMmM",
-        "img_link": "./src/assets/Duck_Page_Preview.JPG",
+        "img_link": "/images/Duck_Page_Preview.JPG",
         "img_alt": "A duck themed webpage"
     },
     {
@@ -36,7 +28,7 @@
         "title": "Python Poker",
         "isExternal": true,
         "link": "https://replit.com/@stevejowen/Text-Based-Poker",
-        "img_link": "./src/assets/Text_Based_Poker_Preview.JPG",
+        "img_link": "/images/Text_Based_Poker_Preview.JPG",
         "img_alt": "A written invitation to play texted based poker"
     }
 ]
