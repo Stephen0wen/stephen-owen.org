@@ -1,9 +1,11 @@
 .keyboard {
+    position: fixed;
+    bottom: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: calc(min(90vw, 600px) / 3);
-    width: min(90vw, 600px);
+    height: calc(min(90vw, 600px, 90vh) / 3);
+    width: min(90vw, 600px, 90vh);
     background-color: #5555;
     border-radius: 1rem;
     margin: 1rem;
@@ -15,14 +17,14 @@
 }
 
 .key {
-    height: calc(min(90vw, 600px) / 12);
-    width: calc(min(90vw, 600px) / 12);
+    height: calc(min(90vw, 600px, 90vh) / 12);
+    width: calc(min(90vw, 600px, 90vh) / 12);
     background-color: #898900;
     color: white;
     font-weight: 800;
-    font-size: calc(min(90vw, 600px) / 20);
+    font-size: calc(min(90vw, 600px, 90vh) / 20);
     border-radius: 0.5rem;
-    margin: calc(min(90vw, 600px) / 200);
+    margin: calc(min(90vw, 600px, 90vh) / 200);
 }
 
 .spacer {

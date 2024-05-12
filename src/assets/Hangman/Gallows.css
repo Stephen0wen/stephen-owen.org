@@ -5,8 +5,8 @@
 .gallows img {
     box-sizing: border-box;
     border-radius: 0.8rem;
-    width: calc(min(90vw, 600px) / 2);
-    height: calc(min(90vw, 600px) / 2);
+    width: calc(min(90vw, 600px, 50vh) / 2);
+    height: calc(min(90vw, 600px, 50vh) / 2);
     opacity: 0.9;
     filter: invert(100%);
 }

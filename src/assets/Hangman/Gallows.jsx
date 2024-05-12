@@ -5,18 +5,18 @@ const Gallows = ({ word, guesses }) => {
         return !word.split("").includes(guess);
     });
     const imagePaths = [
-        "../src/assets/gallows-0.png",
-        "../src/assets/gallows-1.png",
-        "../src/assets/gallows-2.png",
-        "../src/assets/gallows-3.png",
-        "../src/assets/gallows-4.png",
-        "../src/assets/gallows-5.png",
-        "../src/assets/gallows-6.png",
-        "../src/assets/gallows-7.png",
-        "../src/assets/gallows-8.png",
-        "../src/assets/gallows-9.png",
-        "../src/assets/gallows-10.png",
-        "../src/assets/gallows-11.png",
+        "/images/gallows-0.png",
+        "/images/gallows-1.png",
+        "/images/gallows-2.png",
+        "/images/gallows-3.png",
+        "/images/gallows-4.png",
+        "/images/gallows-5.png",
+        "/images/gallows-6.png",
+        "/images/gallows-7.png",
+        "/images/gallows-8.png",
+        "/images/gallows-9.png",
+        "/images/gallows-10.png",
+        "/images/gallows-11.png",
     ];
     return (
         <div className="gallows">

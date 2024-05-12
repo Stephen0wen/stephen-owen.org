@@ -52,7 +52,6 @@ const Word = () => {
                 setIsGameWon={setIsGameWon}
                 setIsGameLost={setIsGameLost}
             />
-            <Gallows word={word} guesses={guesses} />
             <ResetButton
                 difficulty={difficulty}
                 setWord={setWord}
@@ -62,26 +61,29 @@ const Word = () => {
                 isGameLost={isGameLost}
                 setIsGameLost={setIsGameLost}
             />
-            <div className="word">
-                {chars.map((char, index) => {
-                    let output = "";
-                    let classes = "word-char";
-                    if (guesses.includes(char)) {
-                        output = char;
-                    }
-                    if (isGameWon) {
-                        classes += " word-char-won";
-                    }
-                    if (isGameLost) {
-                        classes += " word-char-lost";
-                    }
+            <div id="hangman-display">
+                <Gallows word={word} guesses={guesses} />
+                <section className="word">
+                    {chars.map((char, index) => {
+                        let output = "";
+                        let classes = "word-char";
+                        if (guesses.includes(char)) {
+                            output = char;
+                        }
+                        if (isGameWon) {
+                            classes += " word-char-won";
+                        }
+                        if (isGameLost) {
+                            classes += " word-char-lost";
+                        }
 
-                    return (
-                        <div key={index} className={classes}>
-                            {output}
-                        </div>
-                    );
-                })}
+                        return (
+                            <div key={index} className={classes}>
+                                {output}
+                            </div>
+                        );
+                    })}
+                </section>
             </div>
             <Keyboard
                 guesses={guesses}

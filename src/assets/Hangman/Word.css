@@ -2,24 +2,45 @@
     display: flex;
     color: white;
     height: 10rem;
-    margin-top: 1rem;
+    max-height: 20vh;
+}
+
+#hangman-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hangman-display > * {
+    margin-top: 10vh;
 }
 
 .word-char {
-    width: calc(min(90vw, 600px) / 12);
-    height: calc(min(90vw, 600px) / 9);
+    width: calc(min(90vw, 600px, 90vh) / 12);
+    height: calc(min(90vw, 600px, 90vh) / 9);
     text-align: center;
-    font-size: calc(min(90vw, 600px) / 12);
-    border-bottom: calc(min(90vw, 600px) / 120) solid white;
-    margin: calc(min(90vw, 600px) / 150);
+    font-size: calc(min(90vw, 600px, 90vh) / 12);
+    border-bottom: calc(min(90vw, 600px, 90vh) / 120) solid white;
+    margin: calc(min(90vw, 600px, 90vh) / 150);
 }
 
 .word-char-won {
     color: greenyellow;
-    border-bottom: calc(min(90vw, 600px) / 120) solid greenyellow;
+    border-bottom: calc(min(90vw, 600px, 90vh) / 120) solid greenyellow;
 }
 
 .word-char-lost {
     color: orangered;
-    border-bottom: calc(min(90vw, 600px) / 120) solid orangered;
+    border-bottom: calc(min(90vw, 600px, 90vh) / 120) solid orangered;
+}
+
+@media (max-height: 450px) {
+    #hangman-display {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #hangman-display > * {
+        margin: 5vh 10vh;
+    }
 }
