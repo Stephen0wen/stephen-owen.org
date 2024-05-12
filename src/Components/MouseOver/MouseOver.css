@@ -9,6 +9,11 @@
     transition: 100ms 0ms;
 }
 
-/* .null {
-    border: 1px solid red;
-} */
+.enlarge {
+    transform: scale(1.08);
+    transition: 300ms;
+}
+
+.normal {
+    transition: 150ms;
+}

@@ -2,6 +2,7 @@ import "./Projects.css";
 import Project from "../Project/Project";
 import projects from "../../assets/projects.json";
 import { Link } from "react-router-dom";
+import MouseOver from "../MouseOver/MouseOver";
 
 const Projects = () => {
     return (
@@ -10,37 +11,41 @@ const Projects = () => {
                 {projects.map((project) => {
                     if (project.isExternal) {
                         return (
-                            <a
-                                className="project-tile"
-                                href={project.link}
-                                target="_blank"
-                                key={project.id}
-                            >
-                                <Project
+                            <MouseOver highlightClasses="enlarge">
+                                <a
+                                    className="project-tile"
+                                    href={project.link}
+                                    target="_blank"
                                     key={project.id}
-                                    id={project.id}
-                                    title={project.title}
-                                    img_link={project.img_link}
-                                    img_alt={project.img_alt}
-                                />
-                            </a>
+                                >
+                                    <Project
+                                        key={project.id}
+                                        id={project.id}
+                                        title={project.title}
+                                        img_link={project.img_link}
+                                        img_alt={project.img_alt}
+                                    />
+                                </a>
+                            </MouseOver>
                         );
                     }
                     if (!project.isExternal) {
                         return (
-                            <Link
-                                to={project.link}
-                                className="project-tile"
-                                key={project.id}
-                            >
-                                <Project
+                            <MouseOver highlightClasses="enlarge">
+                                <Link
+                                    to={project.link}
+                                    className="project-tile"
                                     key={project.id}
-                                    id={project.id}
-                                    title={project.title}
-                                    img_link={project.img_link}
-                                    img_alt={project.img_alt}
-                                />
-                            </Link>
+                                >
+                                    <Project
+                                        key={project.id}
+                                        id={project.id}
+                                        title={project.title}
+                                        img_link={project.img_link}
+                                        img_alt={project.img_alt}
+                                    />
+                                </Link>
+                            </MouseOver>
                         );
                     }
                 })}

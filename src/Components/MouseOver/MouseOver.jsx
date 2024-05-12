@@ -1,16 +1,16 @@
 import { useEffect, useState } from "react";
 import "./MouseOver.css";
 
-const MouseOver = ({ children }) => {
-    const [classes, setClasses] = useState("");
+const MouseOver = ({ children, highlightClasses }) => {
+    const [classes, setClasses] = useState("normal");
 
     const handleEnter = () => {
-        setClasses("highlight");
+        setClasses(highlightClasses);
         console.log(classes);
     };
 
     const handleLeave = () => {
-        setClasses("");
+        setClasses("normal");
     };
 
     return (
@@ -20,6 +20,8 @@ const MouseOver = ({ children }) => {
             onTouchStart={handleEnter}
             onMouseLeave={handleLeave}
             onMouseUp={handleLeave}
+            onFocus={handleEnter}
+            onBlur={handleLeave}
         >
             {children}
         </div>

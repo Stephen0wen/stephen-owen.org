@@ -1,5 +1,7 @@
 #projects {
     background-color: #55aaff9d;
+    display: flex;
+    place-items: center;
 }
 
 .project-container {
