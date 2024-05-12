@@ -1,12 +1,12 @@
 .highlight {
     background-color: white !important;
     cursor: pointer;
-    transition: 100ms 0ms;
+    transition: 500ms;
 }
 
 .highlight * {
     color: #203a8c !important;
-    transition: 100ms 0ms;
+    transition: 500ms;
 }
 
 .enlarge {
