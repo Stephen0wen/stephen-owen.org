@@ -6,7 +6,6 @@ const MouseOver = ({ children, highlightClasses }) => {
 
     const handleEnter = () => {
         setClasses(highlightClasses);
-        console.log(classes);
     };
 
     const handleLeave = () => {

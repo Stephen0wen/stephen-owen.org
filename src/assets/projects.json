@@ -5,7 +5,9 @@
         "isExternal": true,
         "link": "https://so-news.netlify.app/",
         "img_link": "/images/SO-NEWS-Preview.png",
-        "img_alt": "A news web app, showing an article about"
+        "img_alt": "A news web app, showing an article about",
+        "description": "A news web app inspired by Reddit. This full stack project includes a backend API built with ExpressJS and PostgreSQL, and a frontend built with React.JS and styled with modular CSS.",
+        "technologies": "JavaScript | React.JS | PostgreSQL | Express"
     },
     {
         "id": 3,
