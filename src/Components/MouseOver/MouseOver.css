@@ -14,6 +14,11 @@
     transition: 300ms;
 }
 
+.extra-enlarge {
+    transform: scale(1.4);
+    transition: 300ms;
+}
+
 .normal {
     transition: 150ms;
 }
