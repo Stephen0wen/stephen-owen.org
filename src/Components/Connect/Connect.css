@@ -1,0 +1,37 @@
+#connect {
+    display: flex;
+    justify-content: center;
+    background: radial-gradient(#404040, #303030 150%);
+}
+
+#connect .connect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    font-family: "Gloria Hallelujah", cursive;
+    padding: auto;
+}
+
+#connect .connect > h2 {
+    font-size: 5rem;
+    line-height: 5.5rem;
+}
+
+#connect .connect > h3 {
+    font-size: 4rem;
+}
+
+#connect .link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: min(40vh, 30rem);
+}
+
+#connect a > i {
+    width: 20rem;
+    font-size: 10rem;
+    color: #f0f049 !important;
+}
