@@ -6,12 +6,10 @@
 
 .project-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    flex-wrap: wrap;
-    width: min(95%, 1500px);
-    margin: auto;
+    width: 100%;
     padding: 2rem 0;
-    gap: 2.5rem;
 }

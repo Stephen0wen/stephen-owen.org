@@ -2,8 +2,12 @@
     --text: white;
     scroll-behavior: disable;
     font-size: clamp(6px, min(0.6vw, 0.6vh), 10px);
-    overflow: hidden;
-    position: fixed;
+    position: absolute;
+    scroll-behavior: smooth;
+    min-height: 100vh;
+    height: max-content;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 * {
@@ -17,14 +21,24 @@
 #root {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
-    height: 100vh;
 }
 
 section {
-    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 8rem;
+    min-height: 100%;
+    width: 100%;
+    height: max-content;
 }
 
 .hidden {
     display: none;
+}
+
+@media (max-width: 600px) {
+    section {
+        margin-top: 13rem;
+    }
 }

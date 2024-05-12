@@ -3,6 +3,13 @@ import { Link } from "react-router-dom";
 import MouseOver from "../MouseOver/MouseOver";
 
 const Project = ({ project }) => {
+    const projectContent = (
+        <>
+            <img src={project.img_link} alt={project.img_alt} />
+            <h2 className="project-title">{project.title}</h2>
+        </>
+    );
+
     if (project.isExternal) {
         return (
             <MouseOver highlightClasses="enlarge">
@@ -12,8 +19,7 @@ const Project = ({ project }) => {
                     target="_blank"
                     key={project.id}
                 >
-                    <img src={project.img_link} alt={project.img_alt} />
-                    <h2 className="project-title">{project.title}</h2>
+                    {projectContent}
                 </a>
             </MouseOver>
         );
@@ -26,8 +32,7 @@ const Project = ({ project }) => {
                     className="project-tile"
                     key={project.id}
                 >
-                    <img src={project.img_link} alt={project.img_alt} />
-                    <h2 className="project-title">{project.title}</h2>
+                    {projectContent}
                 </Link>
             </MouseOver>
         );
