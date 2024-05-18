@@ -1,8 +1,9 @@
-.word {
+#word {
     display: flex;
     color: white;
     height: 10rem;
     max-height: 20vh;
+    position: relative;
 }
 
 #hangman-display {

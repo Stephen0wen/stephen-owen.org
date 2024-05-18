@@ -37,7 +37,7 @@ function Keyboard({ guesses, setGuesses, isGameWon, isGameLost }) {
         ],
     ];
     return (
-        <section className="keyboard">
+        <section id="keyboard">
             <div className="keyboard-row">
                 {keys[0].map((key) => {
                     return (

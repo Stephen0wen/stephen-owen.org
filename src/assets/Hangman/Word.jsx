@@ -63,7 +63,7 @@ const Word = () => {
             />
             <div id="hangman-display">
                 <Gallows word={word} guesses={guesses} />
-                <section className="word">
+                <section id="word">
                     {chars.map((char, index) => {
                         let output = "";
                         let classes = "word-char";

@@ -4,7 +4,7 @@ import Word from "./Word.jsx";
 
 function Hangman() {
     return (
-        <section id="hangman">
+        <section id="hangman" className="page">
             <Title />
             <Word />
         </section>
