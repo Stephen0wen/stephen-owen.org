@@ -6,8 +6,8 @@
         "link": "https://so-news.netlify.app/",
         "img_link": "/images/SO-NEWS-Preview.png",
         "img_alt": "A news web app, showing an article about",
-        "description": "A news web app inspired by Reddit. This full stack project includes a backend API built with ExpressJS and PostgreSQL, and a frontend built with React.JS and styled with modular CSS.",
-        "technologies": "JavaScript | React.JS | PostgreSQL | Express"
+        "description": "A news web app inspired by Reddit. This is my first full stack project. The back end is thoroughly integration tested and any utils are also unit tested. The front end is styled using a modular CSS paradigm.",
+        "technologies": "Node.js | Express.js | PostgreSQL | React.js"
     },
     {
         "id": 3,
@@ -15,7 +15,9 @@
         "isExternal": false,
         "link": "/projects/hangman",
         "img_link": "/images/Hangman_Preview.png",
-        "img_alt": "A partially complete game of hangman"
+        "img_alt": "A partially complete game of hangman",
+        "description": "This fully functional hangman game looks great on devices of any size and is seamlessly integrated into this website as they are both built using react.",
+        "technologies": "React.js | CSS"
     },
     {
         "id": 2,
@@ -23,15 +25,19 @@
         "isExternal": true,
         "link": " https://codepen.io/Stephen0wen/full/QWRwajm",
         "img_link": "/images/Noughts-and-Crosses.png",
-        "img_alt": "A partially complete game of noughts and crosses"
+        "img_alt": "A partially complete game of noughts and crosses",
+        "description": "A simple noughts and crosses game built using the the trifecta of web technologies.",
+        "technologies": "HTML | CSS | JavaScript"
     },
     {
         "id": 1,
-        "title": "Node Pokemon Battler",
+        "title": "Pokemon Battler",
         "isExternal": true,
         "link": "https://replit.com/@stevejowen/pokemon-battler",
         "img_link": "/images/pikachu.png",
-        "img_alt": "Pikachu looking cute"
+        "img_alt": "Pikachu looking cute",
+        "description": "A Pokemon battle game with a command line interface. This program is written using JavaScript's  class syntax for object oriented programming and has potential to be expanded into a larger game.",
+        "technologies": "Node.js | OOP"
     },
     {
         "id": 0,
@@ -39,6 +45,8 @@
         "isExternal": true,
         "link": "https://replit.com/@stevejowen/Text-Based-Poker",
         "img_link": "/images/Text_Based_Poker_Preview.JPG",
-        "img_alt": "A written invitation to play texted based poker"
+        "img_alt": "A written invitation to play texted based poker",
+        "description": "A local multiplayer poker game with a command line interface. I made this before training at Nothcoders having taught myself Python. The code leaves much to be desired, but shows just how much I have improved over the last 3 months.",
+        "technologies": "Python"
     }
 ]
