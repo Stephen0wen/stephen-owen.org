@@ -3,7 +3,7 @@ import "./Connect.css";
 
 const Connect = () => {
     return (
-        <section id="connect">
+        <section id="connect" className="page">
             <div className="section-space connect">
                 <h2>Thanks for dropping by!</h2>
                 <div className="link-container">
