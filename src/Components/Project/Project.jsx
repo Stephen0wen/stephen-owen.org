@@ -6,7 +6,11 @@ const Project = ({ project }) => {
     const projectContent = (
         <>
             <img src={project.img_link} alt={project.img_alt} />
-            <h2 className="project-title">{project.title}</h2>
+            <div className="project-text">
+                <h2 className="project-title">{project.title}</h2>
+                <p className="project-description">{project.description}</p>
+                <p className="project-technologies">{project.technologies}</p>
+            </div>
         </>
     );
 

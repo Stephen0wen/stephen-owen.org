@@ -1,43 +1,59 @@
 .project-tile {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
     text-decoration: none;
-    --container-width: min(95vw, 1500px);
-    height: max(calc(var(--container-width) / 4), 150px);
-    width: max(calc(var(--container-width) / 4), 150px);
-    padding: 2px;
+    height: clamp(80px, 15vh, 180px);
+    width: min(90vw, 1000px);
+    padding: 0.5rem;
     background-color: white;
     color: black !important;
-    border: 2px solid #aaa;
-    box-shadow: 0 0 2rem 0.08rem var(--header-color);
-    margin: 1.25rem;
-}
-
-.project-tile:active {
-    transform: scale(1.08);
-    transition: 100ms;
-    box-shadow: 0 0 2rem 0.08rem #222;
+    box-shadow: 0 0 1rem gray;
+    margin: 2rem;
+    font-size: min(2vh, 2.4vw, 18px);
 }
 
 .project-tile img {
-    width: 100%;
-    max-height: calc(100% - clamp(12px, 1.3vw, 16px) * 3);
+    aspect-ratio: 1;
     object-fit: cover;
     object-position: 50% 0%;
 }
 
-.project-title {
-    font-family: "Gloria Hallelujah", cursive;
-    font-size: clamp(12px, 1.3vw, 16px);
-    color: black !important;
-    padding: 0px;
-    margin: 5px;
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
-    text-wrap: nowrap;
+.project-text {
+    width: calc(100% - clamp(80px, 15vh, 180px));
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.coming-soon {
-    justify-content: center;
+.project-title {
+    font-family: "Gloria Hallelujah", cursive;
+    max-width: 100%;
+    width: max-content;
+    height: 1.8em;
+    font-size: 1.2em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+    color: black !important;
+    border-bottom: 0.2em solid black;
+}
+
+.project-description {
+    color: black !important;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+.project-technologies {
+    width: 100%;
+    color: black !important;
+    font-size: 1em;
+    margin-bottom: 0.2em;
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+}
+
+@media (max-width: 600px) {
 }

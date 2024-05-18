@@ -38,7 +38,7 @@
 }
 
 @media (max-width: 600px) {
-    section {
-        margin-top: 13rem;
+    .page {
+        padding-top: 13rem;
     }
 }
