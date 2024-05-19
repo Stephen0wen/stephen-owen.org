@@ -1,0 +1,53 @@
+#error-404 {
+    background: radial-gradient(#000, #333 500%);
+}
+
+#swing-container {
+    transform-origin: top center;
+    animation: swing 3.5s ease-in-out infinite;
+}
+
+#error-404 #wire {
+    border: 0.2rem solid #333;
+    height: 55vh;
+    width: 0;
+    margin-bottom: -1rem;
+}
+
+#error-404 #triangle {
+    border-left: 8vh solid transparent;
+    border-right: 8vh solid transparent;
+    border-bottom: 2vh solid #333;
+    height: 0;
+    width: 0;
+}
+
+#error-message {
+    padding: 2vh;
+    border: 0.4rem solid #666;
+    border-radius: 3rem;
+}
+
+#error-404 h2 {
+    opacity: 0.7;
+    font-size: 3vh;
+    line-height: 4.5vh;
+    font-family: "Gloria Hallelujah", cursive;
+}
+
+#error-404 h3 {
+    opacity: 0.8;
+    font-size: 12vh;
+    line-height: 10.5vh;
+    font-family: "Gloria Hallelujah", cursive;
+}
+
+@keyframes swing {
+    0%,
+    100% {
+        transform: rotate(3deg);
+    }
+    50% {
+        transform: rotate(-3deg);
+    }
+}
