@@ -1,0 +1,37 @@
+[
+    {
+        "id": 0,
+        "name": "HTML5",
+        "img": "/images/HTML5.svg"
+    },
+    {
+        "id": 1,
+        "name": "CSS3",
+        "img": "/images/CSS3.svg"
+    },
+    {
+        "id": 2,
+        "name": "Javascript",
+        "img": "/images/Javascript.svg"
+    },
+    {
+        "id": 3,
+        "name": "Node.js",
+        "img": "/images/Node.js.svg"
+    },
+    {
+        "id": 4,
+        "name": "Python",
+        "img": "/images/Python.svg"
+    },
+    {
+        "id": 5,
+        "name": "React",
+        "img": "/images/React.svg"
+    },
+    {
+        "id": 6,
+        "name": "Postgresql",
+        "img": "/images/Postgresql.svg"
+    }
+]

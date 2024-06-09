@@ -1,6 +1,7 @@
 [
     {
         "id": 4,
+        "isVisible": true,
         "title": "SO-NEWS",
         "isExternal": true,
         "link": "https://so-news.netlify.app/",
@@ -11,6 +12,7 @@
     },
     {
         "id": 3,
+        "isVisible": true,
         "title": "Hangman",
         "isExternal": false,
         "link": "/projects/hangman",
@@ -21,6 +23,7 @@
     },
     {
         "id": 2,
+        "isVisible": true,
         "title": "Noughts and Crosses",
         "isExternal": true,
         "link": " https://codepen.io/Stephen0wen/full/QWRwajm",
@@ -31,6 +34,7 @@
     },
     {
         "id": 1,
+        "isVisible": false,
         "title": "Pokemon Battler",
         "isExternal": true,
         "link": "https://replit.com/@stevejowen/pokemon-battler",
@@ -41,6 +45,7 @@
     },
     {
         "id": 0,
+        "isVisible": true,
         "title": "Python Poker",
         "isExternal": true,
         "link": "https://replit.com/@stevejowen/Text-Based-Poker",

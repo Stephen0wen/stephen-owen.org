@@ -3,6 +3,10 @@ import { Link } from "react-router-dom";
 import MouseOver from "../MouseOver/MouseOver";
 
 const Project = ({ project }) => {
+    if (!project.isVisible) {
+        return;
+    }
+
     const projectContent = (
         <>
             <img src={project.img_link} alt={project.img_alt} />
