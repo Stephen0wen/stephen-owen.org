@@ -1,14 +1,25 @@
 [
     {
-        "id": 4,
+        "id": 5,
         "isVisible": true,
         "title": "SO-NEWS",
         "isExternal": true,
         "link": "https://so-news.netlify.app/",
         "img_link": "/images/SO-NEWS-Preview.png",
         "img_alt": "A news web app, showing an article about",
-        "description": "A news web app inspired by Reddit. This is my first full stack project. The back end is thoroughly integration tested and any utils are also unit tested. The front end is styled using a modular CSS paradigm.",
+        "description": "A news web app inspired by Reddit, featuring authentication from firebase and a separate RESTful API. The back end is thoroughly integration tested and any utils are also unit tested. The front end is styled using a modular CSS paradigm.",
         "technologies": "Node.js | Express.js | PostgreSQL | React.js"
+    },
+    {
+        "id": 4,
+        "isVisible": true,
+        "title": "Othello",
+        "isExternal": true,
+        "link": "https://so-othello.netlify.app/",
+        "img_link": "/images/Othello.png",
+        "img_alt": "The start position of a game of othello",
+        "description": "Prove your Othello skills by beating an AI powered by a greedy algorithm. This app was made without using any libraries or code from other sources and is therefore an excellent showcase of my problem solving skills. I have extracted all the game logic into custom hooks to keep the codebase as clean and maintainable as possible",
+        "technologies": "React.js | CSS"
     },
     {
         "id": 3,
