@@ -18,7 +18,7 @@
         "link": "https://so-othello.netlify.app/",
         "img_link": "/images/Othello.png",
         "img_alt": "The start position of a game of othello",
-        "description": "Prove your Othello skills by beating an AI powered by a greedy algorithm. This app was made without using any libraries or code from other sources and is therefore an excellent showcase of my problem solving skills. I have extracted all the game logic into custom hooks to keep the codebase as clean and maintainable as possible",
+        "description": "Prove your Othello skills by beating an AI powered by a greedy algorithm. This app was made without using any libraries or code from other sources and is therefore an excellent showcase of my problem solving skills.",
         "technologies": "React.js | CSS"
     },
     {
