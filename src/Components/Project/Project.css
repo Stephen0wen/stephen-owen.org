@@ -1,8 +1,9 @@
 .project-tile {
     display: flex;
     flex-direction: row;
+    align-items: center;
     text-decoration: none;
-    height: clamp(80px, 15vh, 180px);
+    min-height: clamp(80px, 15vh, 180px);
     width: min(90vw, 1000px);
     padding: 0.5rem;
     background-color: white;
@@ -16,10 +17,12 @@
     aspect-ratio: 1;
     object-fit: cover;
     object-position: 50% 0%;
+    height: clamp(80px, 15vh, 180px);
 }
 
 .project-text {
     width: calc(100% - clamp(80px, 15vh, 180px));
+    min-height: clamp(80px, 15vh, 180px);
     margin: 0 1rem;
     display: flex;
     flex-direction: column;
@@ -31,7 +34,7 @@
     max-width: 100%;
     width: max-content;
     height: 1.8em;
-    font-size: 1.2em;
+    font-size: 1.4em;
     overflow: hidden;
     text-overflow: ellipsis;
     text-wrap: nowrap;
@@ -42,7 +45,7 @@
 .project-description {
     color: black !important;
     text-align: left;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 .project-technologies {

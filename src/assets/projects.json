@@ -1,13 +1,24 @@
 [
     {
+        "id": 6,
+        "isVisible": true,
+        "title": "EventLoop",
+        "isExternal": true,
+        "link": "https://event-loop.netlify.app/",
+        "img_link": "/images/EventLoop-Preview.png",
+        "img_alt": "An events platform web app showing a collection of events",
+        "description": "An events platform, featuring authentication from firebase, purpose built and tested RESTful API, and Google Calendar integration,",
+        "technologies": "Node.js | Express.js | PostgreSQL | React.js"
+    },
+    {
         "id": 5,
         "isVisible": true,
         "title": "SO-NEWS",
         "isExternal": true,
         "link": "https://so-news.netlify.app/",
         "img_link": "/images/SO-NEWS-Preview.png",
-        "img_alt": "A news web app, showing an article about",
-        "description": "A news web app inspired by Reddit, featuring authentication from firebase and a separate RESTful API. The back end is thoroughly integration tested and any utils are also unit tested. The front end is styled using a modular CSS paradigm.",
+        "img_alt": "A news web app, showing an article",
+        "description": "A news web app inspired by Reddit, featuring authentication from firebase and a separate RESTful API.",
         "technologies": "Node.js | Express.js | PostgreSQL | React.js"
     },
     {
@@ -56,13 +67,13 @@
     },
     {
         "id": 0,
-        "isVisible": true,
+        "isVisible": false,
         "title": "Python Poker",
         "isExternal": true,
         "link": "https://replit.com/@stevejowen/Text-Based-Poker",
         "img_link": "/images/Text_Based_Poker_Preview.JPG",
         "img_alt": "A written invitation to play texted based poker",
-        "description": "A local multiplayer poker game with a command line interface. I made this before training at Nothcoders having taught myself Python. The code leaves much to be desired, but shows just how much I have improved over the last 3 months.",
+        "description": "A local multiplayer poker game with a command line interface. I made this before training at Nothcoders having taught myself Python. The code leaves much to be desired, but shows just how much I have improved since then.",
         "technologies": "Python"
     }
 ]
