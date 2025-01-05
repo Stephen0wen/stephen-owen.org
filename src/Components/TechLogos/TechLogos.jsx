@@ -1,21 +1,19 @@
-import logos from "../../assets/techLogos.json";
-import TechLogo from "../TechLogo/TechLogo";
 import "./TechLogos.css";
+import logos from "../../assets/techLogos.json";
 
 const TechLogos = () => {
-    const spacing = 360 / logos.length;
     return (
-        <div id="tech-logo-wheel">
-            {logos.map((logo, index) => {
+        <section id="tech-logo-container">
+            {logos.map((logo) => {
                 return (
-                    <TechLogo
-                        key={logo.id}
-                        logo={logo}
-                        offset={index * spacing}
+                    <img
+                        src={logo.img}
+                        className="tech-logo"
+                        id={`logo-${logo.id}`}
                     />
                 );
             })}
-        </div>
+        </section>
     );
 };
 

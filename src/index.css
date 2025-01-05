@@ -13,7 +13,6 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    border: 0px solid red;
     margin: 0;
     color: var(--text);
 }

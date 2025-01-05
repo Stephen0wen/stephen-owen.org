@@ -1,18 +1,18 @@
-#tech-logo-wheel {
-    position: absolute;
-    top: auto;
-    left: auto;
+#tech-logo-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    animation: rotate 60s linear infinite;
+    width: 80vw;
+    gap: 5rem;
 }
 
-@keyframes rotate {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+.tech-logo {
+    width: max(5vw, 5vh);
+    height: max(5vw, 5vh);
+    max-width: 10rem;
+    max-height: 10rem;
+    background-color: #fff4;
+    padding: 1rem;
+    border-radius: 1rem;
 }

@@ -11,10 +11,29 @@
     overflow: hidden;
 }
 
+.welcome-message {
+    display: flex;
+    flex-direction: column;
+    gap: min(2rem, 2vw);
+}
+
 .welcome-message h1 {
     font-size: min(10rem, 10vw);
+    line-height: min(10rem, 10vw);
 }
 
 .welcome-message h2 {
     font-size: min(4rem, 4vw);
+    line-height: min(4rem, 4vw);
+}
+
+#spotlight h2 {
+    font-size: min(4rem, 4vw);
+}
+
+#spotlight iframe {
+    max-height: 40vh;
+    max-width: min(80vw, calc(50vh * 16 / 9));
+    width: 100vw;
+    aspect-ratio: 16 / 9 !important;
 }
